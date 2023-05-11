@@ -1,0 +1,70 @@
+.Home{
+  padding: 20px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.heading{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Product__Heading{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.head{
+  background-color: rgb(146, 144, 141);
+}
+.nav-item{
+  
+  text-decoration: none;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+font-size: 18px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-item:hover{
+  color: aliceblue;
+  text-transform: uppercase;
+  text-decoration:underline;
+  
+}
+.logo{
+
+  float: left; 
+  margin: 20px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   font-family:'Courier New', Courier, monospace ;
+   font-size: 25px;
+ border: 2px solid;
+ padding: 10px;
+ background-color: burlywood;
+   font-weight: 600;
+
+ 
+}
+.logo a{
+  color:white;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+ 
+}
+a{
+  text-decoration: none;
+  
+}
+.CartCounter{
+  display: flex;
+
+  justify-content:right;
+  margin: 0 20px;
+font-size: 22px;
+font-weight: 500;
+  font-family:monospace
+}
